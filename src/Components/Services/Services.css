@@ -1,0 +1,31 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 1.5px solid black;
+    border-radius: 9px;
+    background-color: aqua;
+
+}
+
+
+.box p {
+    padding-top: 16rem;
+    text-align: left;
+ font-size: 1.8rem;
+ font-family: 'Lato', sans-serif;
+}
+
+.box h4  {
+    font-size: 2.4rem;
+    font-family: 'eklektic-normal', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.fill {
+    height: 100%;
+  }

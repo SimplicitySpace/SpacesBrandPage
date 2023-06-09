@@ -1,0 +1,13 @@
+nav img {
+    width: 8%;
+}
+nav {
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #EF8A17;
+
+}

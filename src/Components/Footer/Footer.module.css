@@ -1,0 +1,147 @@
+footer {
+    background-color: #EF8A17;
+    color: white;
+    display: flex;
+    flex-direction: column;
+padding: 2rem;
+}
+.topRow {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+.topRow img {
+    width: 40%;
+    padding: 4rem;
+}
+
+.textBox {
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+    width: 50%;
+padding: 4rem;
+}
+.textBox1, .textBox2 {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    font-family: 'Lato', sans-serif;
+
+    font-size: 1.8rem;
+
+}
+
+.bottomRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    margin-top: 8rem;
+    padding: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+.socialIcons {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+@media (max-width: 58em ) {
+    .bottomRow {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.8rem;
+        margin-top: 8rem;
+        padding: 2rem;
+        font-family: 'Lato', sans-serif;
+    }
+    .socialIcons {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+
+    }
+    .bottomRow img {
+        width: 80%;
+    }
+    .textBox {
+        display: flex;
+        align-items: center;   
+        justify-content: space-between;
+        width: 60%;
+    /* padding: 2rem; */
+    }
+    .topRow img {
+        width: 50%;
+        padding: 1.2rem;
+        /* display: inline; */
+        padding: 4rem;
+    }
+}
+@media (max-width:  50em) {
+    .topRow {
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .bottomRow {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.8rem;
+        margin-top: 2rem;
+        padding: 2rem;
+        font-family: 'Lato', sans-serif;
+    }
+}
+@media (max-width:  50em) {
+    .topRow {
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .bottomRow {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.4rem;
+        margin-top: 2rem;
+        padding: 2rem;
+        font-family: 'Lato', sans-serif;
+    }
+    .textBox1, .textBox2 {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        font-family: 'Lato', sans-serif;
+    
+        font-size: 1.4rem;
+    
+    }
+    .topRow img {
+        width: 40%;
+        padding: 2rem 0;
+     
+    }
+    .textBox {
+        display: flex;
+        align-items: center;   
+        justify-content: space-between;
+        width: 80%;
+    padding: 1.2rem;
+   
+    }
+    .bottomRow {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.4rem;
+        margin-top: 2rem;
+        padding: .4rem;
+        gap: 4rem;
+        font-family: 'Lato', sans-serif;
+    }
+}
